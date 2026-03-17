@@ -132,10 +132,6 @@ Password: 1234
 
 Explore the dashboard
 
-Screenshots & Documentation
-
-All dashboard images are stored in:
-docs/dashboard_screenshots/
 
 
 Conclusion
