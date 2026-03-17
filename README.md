@@ -11,7 +11,7 @@ The goal of this project is to:
 - Demonstrate a complete data workflow (Python → SQL → Power BI)
 
 ---
-
+```
 ## Project Structure
 
 Healthcare-Dashboard/
@@ -28,7 +28,7 @@ Healthcare-Dashboard/
 │ └─ dashboard_screenshots
 └─ README.md
 
-
+```
 ---
 
 ## Challenges & Lessons Learned
