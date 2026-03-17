@@ -10,6 +10,33 @@ The goal of this project is to:
 - Build an interactive dashboard for data visualization
 - Demonstrate a complete data workflow (Python → SQL → Power BI)
 
+##Power bi  DAX codes :
+Total Patients = COUNT('healthcare patients'[patient_id])
+
+Average Charges = AVERAGE('healthcare patients'[charges])
+
+Max Charges = MAX('healthcare patients'[charges])
+
+Smokers Count = 
+CALCULATE(
+    COUNT('healthcare patients'[patient_id]),
+    'healthcare patients'[smoker] = "yes")
+
+Age Group 2 = 
+SWITCH(
+    TRUE(),
+    'healthcare patients'[age] < 18, "child",
+    'healthcare patients'[age] <= 30, "young_adult",
+    'healthcare patients'[age] <= 50, "adult",
+    "senior")
+
+Cost per Child = 
+DIVIDE(
+    'healthcare patients'[charges],
+    'healthcare patients'[children],
+    0
+)
+
 ---
 ```
 ## Project Structure
