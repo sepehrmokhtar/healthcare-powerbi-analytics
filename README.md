@@ -40,7 +40,7 @@ Healthcare-Dashboard/
 
 Solution:
 - Created user:
-```sql
+sql
 CREATE USER 'powerbi'@'%' IDENTIFIED BY '1234';
 GRANT ALL PRIVILEGES ON healthcare.* TO 'powerbi'@'%';
 FLUSH PRIVILEGES;
