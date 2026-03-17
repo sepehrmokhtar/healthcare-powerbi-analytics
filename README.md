@@ -9,7 +9,7 @@ The goal of this project is to:
 - Analyze insurance charges based on patient data (age, BMI, smoking status, region)
 - Build an interactive dashboard for data visualization
 - Demonstrate a complete data workflow (Python → SQL → Power BI)
-
+```
 ##Power bi  DAX codes :
 Total Patients = COUNT('healthcare patients'[patient_id])
 
@@ -36,7 +36,7 @@ DIVIDE(
     'healthcare patients'[children],
     0
 )
-
+```
 ---
 ```
 ## Project Structure
