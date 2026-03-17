@@ -1,6 +1,6 @@
 # Healthcare Insurance Dashboard Project
 
-![Dashboard](docs/dashboard_overview.png)
+![Dashboard](docs/17.03.2026_10.50.39_REC.png)
 
 ## Overview
 This project is a **Healthcare Insurance Cost Analysis Dashboard** built with **Power BI** and **MySQL**.
