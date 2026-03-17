@@ -12,22 +12,6 @@ The goal of this project is to:
 
 ---
 
-## Dashboard Preview
-
-### KPI Cards
-![KPI Cards](docs/dashboard_screenshots/kpi.png)
-
-### Patients by Region
-![Patients by Region](docs/dashboard_screenshots/bar_region.png)
-
-### BMI vs Charges (Scatter Plot)
-![Scatter Plot](docs/dashboard_screenshots/scatter_bmi_charges.png)
-
-### Average Charges by Smoker
-![Donut Chart](docs/dashboard_screenshots/donut_smoker.png)
-
----
-
 ## Project Structure
 
 Healthcare-Dashboard/
