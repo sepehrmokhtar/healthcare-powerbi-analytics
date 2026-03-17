@@ -75,7 +75,7 @@ DROP TABLE IF EXISTS patients;
 
 -Used Python (Jupyter Notebook) for:
 
-Data exploration
+.Data exploration
 
 .Checking distributions
 
